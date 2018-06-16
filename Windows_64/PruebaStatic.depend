@@ -1,0 +1,113 @@
+# depslib dependency file v1.0
+1463488858 source:k:\pruebastatic\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+
+1463488858 .h"
+
+1463488500 k:\pruebastatic\arraylist.h
+
+1463505889 source:/home/mauro/Descargas/ARRAY_LIB/LINUX_64/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1527641596 h"
+
+1463505431 /home/mauro/Descargas/ARRAY_LIB/LINUX_64/ArrayList.h
+
+1463505760 source:/home/mauro/Descargas/ARRAY_LIB/LINUX_64/Employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+
+1463505789 /home/mauro/Descargas/ARRAY_LIB/LINUX_64/Employee.h
+
+1464384445 source:c:\users\profesor\desktop\example4_static_lib\win_64\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1463604778 c:\users\profesor\desktop\example4_static_lib\win_64\arraylist.h
+
+1464384298 c:\users\profesor\desktop\example4_static_lib\win_64\employee.h
+
+1464384349 source:c:\users\profesor\desktop\example4_static_lib\win_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1464384471 source:c:\users\profesor\desktop\example4_static_lib\win_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1527642283 source:d:\windows_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1463604778 d:\windows_64\arraylist.h
+
+1527641450 d:\windows_64\employee.h
+
+1527641595 source:d:\windows_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1527642210 source:d:\windows_64\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1527642642 source:g:\windows_64\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1463604778 g:\windows_64\arraylist.h
+
+1527641452 g:\windows_64\employee.h
+
+1527642284 source:g:\windows_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1527641596 source:g:\windows_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1527631842 source:/media/voxed/BABILONIA/Clases/Windows_64/Employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1463593978 /media/voxed/BABILONIA/Clases/Windows_64/ArrayList.h
+
+1527630652 /media/voxed/BABILONIA/Clases/Windows_64/Employee.h
+
+1527631484 source:/media/voxed/BABILONIA/Clases/Windows_64/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
