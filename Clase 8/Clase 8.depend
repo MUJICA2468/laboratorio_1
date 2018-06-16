@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1524009064 source:d:\clase 8\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcion.h"
+
+1524008921 d:\clase 8\funcion.h
+
+1524008916 source:d:\clase 8\funcion.c
+	<stdlib.h>
+	<stdio.h>
+	"funcion.h"
+	"string.h"
+
+1524158613 source:d:\programaci”n - cursada\clase 8\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcion.h"
+
+1524157185 d:\programaci”n - cursada\clase 8\funcion.h
+
+1524157451 source:d:\programaci”n - cursada\clase 8\funcion.c
+	<stdlib.h>
+	<stdio.h>
+	"funcion.h"
+	"string.h"
+
+1524157452 source:e:\clase 8\funcion.c
+	<stdlib.h>
+	<stdio.h>
+	"funcion.h"
+	"string.h"
+
+1524157186 e:\clase 8\funcion.h
+
+1524184248 source:e:\clase 8\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcion.h"
+	"empleado.h"
+
+1524184172 source:e:\clase 8\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"empleado.h"
+
+1524183330 e:\clase 8\empleado.h
+
