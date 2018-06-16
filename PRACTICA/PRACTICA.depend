@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1529018930 source:/home/alumno/PRACTICA/cliente.c
+	"cliente.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1529018967 /home/alumno/PRACTICA/cliente.h
+
+1529025411 source:/home/alumno/PRACTICA/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"cliente.h"
+	"parser.h"
+
+1529021513 source:/home/alumno/PRACTICA/parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"parser.h"
+	"cliente.h"
+
+1529020489 /home/alumno/PRACTICA/parser.h
+	"cliente.h"
+
+1529023982 source:/home/alumno/PRACTICA/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1529024505 /home/alumno/PRACTICA/ArrayList.h
+
+1529025772 source:/home/voxed/Downloads/Clases-de-programaci-n-master/PRACTICA/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1529025772 /home/voxed/Downloads/Clases-de-programaci-n-master/PRACTICA/ArrayList.h
+
+1529025772 source:/home/voxed/Downloads/Clases-de-programaci-n-master/PRACTICA/cliente.c
+	"cliente.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1529025772 /home/voxed/Downloads/Clases-de-programaci-n-master/PRACTICA/cliente.h
+
+1529025772 source:/home/voxed/Downloads/Clases-de-programaci-n-master/PRACTICA/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"cliente.h"
+	"parser.h"
+
+1529025772 /home/voxed/Downloads/Clases-de-programaci-n-master/PRACTICA/parser.h
+	"cliente.h"
+
+1529025772 source:/home/voxed/Downloads/Clases-de-programaci-n-master/PRACTICA/parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"parser.h"
+	"cliente.h"
+
