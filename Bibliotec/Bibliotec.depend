@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1526151412 source:g:\bibliotec\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"informe.h"
+
+1526151892 g:\bibliotec\funciones.h
+
+1526151472 g:\bibliotec\informe.h
+
+1526148176 source:g:\bibliotec\informe.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1526149546 source:g:\bibliotec\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"informe.h"
+
