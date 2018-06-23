@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1529721178 source:/home/voxed/programacion_lab_1/Practicas/practica_similarAlParcial/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1529725275 /home/voxed/programacion_lab_1/Practicas/practica_similarAlParcial/ArrayList.h
+
+1529729143 source:/home/voxed/programacion_lab_1/Practicas/practica_similarAlParcial/Cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Cliente.h"
+	"utn.h"
+
+1529720327 source:/home/voxed/programacion_lab_1/Practicas/practica_similarAlParcial/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1529720289 /home/voxed/programacion_lab_1/Practicas/practica_similarAlParcial/utn.h
+
+1529727608 source:/home/voxed/programacion_lab_1/Practicas/practica_similarAlParcial/parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"parser.h"
+	"ArrayList.h"
+	"Cliente.h"
+
+1529724131 /home/voxed/programacion_lab_1/Practicas/practica_similarAlParcial/parser.h
+	"ArrayList.h"
+
+1529721843 /home/voxed/programacion_lab_1/Practicas/practica_similarAlParcial/Cliente.h
+
+1529729447 source:/home/voxed/programacion_lab_1/Practicas/practica_similarAlParcial/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"parser.h"
+	"Cliente.h"
+	"utn.h"
+
