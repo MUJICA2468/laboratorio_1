@@ -1,0 +1,138 @@
+# depslib dependency file v1.0
+1529628164 source:c:\users\alumno\desktop\ejerciciopre2doparcialv2\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+
+1529628497 h"
+
+1529626425 c:\users\alumno\desktop\ejerciciopre2doparcialv2\empleado.h
+
+1529628544 source:c:\users\alumno\desktop\ejerciciopre2doparcialv2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"ArrayList.h"
+	"Parser.h"
+
+1529619034 
+
+1529625381 c:\users\alumno\desktop\ejerciciopre2doparcialv2\arraylist.h
+
+1529543259 c:\users\alumno\desktop\ejerciciopre2doparcialv2\parser.h
+	"ArrayList.h"
+
+1529625261 .h"
+
+1529628497 source:c:\users\alumno\desktop\ejerciciopre2doparcialv2\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Parser.h"
+	"Empleado.h"
+
+1529625261 source:c:\users\alumno\desktop\ejerciciopre2doparcialv2\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1529619034 source:c:\users\alumno\desktop\ejerciciopre2doparcialv2\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1529618796 c:\users\alumno\desktop\ejerciciopre2doparcialv2\utn.h
+
+1529617366 source:/home/voxed/programacion_lab_1/Practicas/EjercicioPre2doParcialV2/Empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+
+1529615626 /home/voxed/programacion_lab_1/Practicas/EjercicioPre2doParcialV2/Empleado.h
+
+1529617698 source:/home/voxed/programacion_lab_1/Practicas/EjercicioPre2doParcialV2/Parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Parser.h"
+	"Empleado.h"
+
+1529614582 /home/voxed/programacion_lab_1/Practicas/EjercicioPre2doParcialV2/ArrayList.h
+
+1529532460 /home/voxed/programacion_lab_1/Practicas/EjercicioPre2doParcialV2/Parser.h
+	"ArrayList.h"
+
+1529692583 source:/home/voxed/programacion_lab_1/Practicas/EjercicioPre2doParcialV2/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"ArrayList.h"
+	"Parser.h"
+
+1529608234 source:/home/voxed/programacion_lab_1/Practicas/EjercicioPre2doParcialV2/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1529607996 /home/voxed/programacion_lab_1/Practicas/EjercicioPre2doParcialV2/utn.h
+
+1529692044 source:/home/voxed/programacion_lab_1/Practicas/EjercicioPre2doParcialV2/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1529700631 source:/home/voxed/programacion_lab_1/Practicas/EjercicioPre2doParcialV2_MIO/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1529700641 /home/voxed/programacion_lab_1/Practicas/EjercicioPre2doParcialV2_MIO/ArrayList.h
+
+1529703992 source:/home/voxed/programacion_lab_1/Practicas/EjercicioPre2doParcialV2_MIO/Empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+
+1529697820 /home/voxed/programacion_lab_1/Practicas/EjercicioPre2doParcialV2_MIO/Empleado.h
+
+1529710117 source:/home/voxed/programacion_lab_1/Practicas/EjercicioPre2doParcialV2_MIO/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"ArrayList.h"
+	"Parser.h"
+
+1529710115 /home/voxed/programacion_lab_1/Practicas/EjercicioPre2doParcialV2_MIO/Parser.h
+	"ArrayList.h"
+
+1529703897 source:/home/voxed/programacion_lab_1/Practicas/EjercicioPre2doParcialV2_MIO/Parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Parser.h"
+	"Empleado.h"
+
+1529608234 source:/home/voxed/programacion_lab_1/Practicas/EjercicioPre2doParcialV2_MIO/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1529607996 /home/voxed/programacion_lab_1/Practicas/EjercicioPre2doParcialV2_MIO/utn.h
+
