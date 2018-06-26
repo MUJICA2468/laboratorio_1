@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1529979595 source:/home/voxed/programacion_lab_1/Clases/fantasma_parcial/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"parser.h"
+	"fantasma.h"
+	"utn.h"
+
+1529892915 source:/home/voxed/programacion_lab_1/Clases/fantasma_parcial/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1529772544 /home/voxed/programacion_lab_1/Clases/fantasma_parcial/ArrayList.h
+
+1529977503 source:/home/voxed/programacion_lab_1/Clases/fantasma_parcial/fanstama.c
+
+1529978628 source:/home/voxed/programacion_lab_1/Clases/fantasma_parcial/parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"parser.h"
+	"ArrayList.h"
+	"fantasma.h"
+
+1529978320 /home/voxed/programacion_lab_1/Clases/fantasma_parcial/parser.h
+	"ArrayList.h"
+
+1529977718 /home/voxed/programacion_lab_1/Clases/fantasma_parcial/fanstama.h
+
+1529874547 source:/home/voxed/programacion_lab_1/Clases/fantasma_parcial/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1529809628 /home/voxed/programacion_lab_1/Clases/fantasma_parcial/utn.h
+
+1529982237 source:/home/voxed/programacion_lab_1/Clases/fantasma_parcial/fantasma.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"fantasma.h"
+	"utn.h"
+
+1529982736 /home/voxed/programacion_lab_1/Clases/fantasma_parcial/fantasma.h
+
