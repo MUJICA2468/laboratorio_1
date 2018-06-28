@@ -18,6 +18,7 @@ int fantasma_baja(ArrayList* pArrayList,int id);
 int fantasma_ordenar(void* lastNameA,void* lastNameB);
 int fantasma_listar(ArrayList* pArrayList);
 int fantasma_setParametros(char* name,char* lastName,char* dni);
+int fantasma_getParametros(Fantasma* auxCliente,int* id,char* name,char* lastName,char* dni);
 int fantasma_getId(Fantasma* this,int* id);
 int fantasma_setName(Fantasma* this,char* name);
 int fantasma_getName(Fantasma* this,char* name);

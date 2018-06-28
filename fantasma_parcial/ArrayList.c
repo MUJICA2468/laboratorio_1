@@ -104,7 +104,7 @@ int al_deleteArrayList(ArrayList* this)
     return returnAux;
 }
 
-/** \brief  Delete arrayList
+/** \brief  len determ how big is the ArrayList
  * \param pList ArrayList* Pointer to arrayList
  * \return int Return length of array or (-1) if Error [pList is NULL pointer]
  *
@@ -145,7 +145,7 @@ void* al_get(ArrayList* this, int index)
  *                  - ( 1) if this list contains at least one element pElement
  *
  */
-int al_contains(ArrayList* this, void* pElement)
+int al_contains(ArrayList* this,void* pElement)
 {
     int returnAux = -1;
     int i;

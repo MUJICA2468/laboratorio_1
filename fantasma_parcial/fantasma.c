@@ -7,6 +7,11 @@
 #include "utn.h"
 static int fantasma_setId(Fantasma* this,int id);
 
+/** \brief Genera un nuevo elemento en el array
+ *
+ * \return Fantasma* Puntero a estructura
+ *
+ */
 Fantasma* fantasma_new()
 {
     Fantasma* this = NULL;
@@ -14,11 +19,26 @@ Fantasma* fantasma_new()
     return this;
 }
 
+/** \brief Libera espacio reservado previamente
+ *
+ * \param this Fantasma* Puntero a estructura
+ * \return void Retorno a void(nada)
+ *
+ */
 void fantasma_delete(Fantasma* this)
 {
     free(this);
 }
 
+/** \brief Funcion con los seteos y parametros llamados
+ *
+ * \param id int parametro a id
+ * \param name char* parametro a name
+ * \param lastName char* parametro a lastname
+ * \param dni char* parametro a dni
+ * \return Fantasma* retorna un nuevos elementos para el llamado
+ *
+ */
 Fantasma* fantasma_newParametros(int id,char* name,char* lastName,char* dni)
 {
     Fantasma* this = fantasma_new();
@@ -113,6 +133,12 @@ int fantasma_ordenar(void* lastNameA,void* lastNameB)
     return auxReturn;
 }
 
+/** \brief Lista la cantidad de elementos en el arrat
+ *
+ * \param pArrayList ArrayList* puntero a estructura
+ * \return int retorna (-1)si no se logra entrar
+ *                      (0)si logra la entrada
+ */
 int fantasma_listar(ArrayList* pArrayList)
 {
     Fantasma* auxFantasma;
@@ -140,6 +166,14 @@ int fantasma_listar(ArrayList* pArrayList)
     return auxReturn;
 }
 
+/** \brief Se van a pedir los datos y se los consigue por parametro
+ *
+ * \param name char* parametro para name
+ * \param lastName char* parametro para lastName
+ * \param dni char* parametro para el dni
+ * \return int retorna(-1)si no logra entrar
+ *
+ */
 int fantasma_setParametros(char* name,char* lastName,char* dni)
 {
     int auxReturn = -1;
@@ -152,6 +186,36 @@ int fantasma_setParametros(char* name,char* lastName,char* dni)
     return auxReturn;
 }
 
+/** \brief Se OBTIENEN los datos por parametro
+ *
+ * \param auxCliente Fantasma* puntero a estructura
+ * \param id int* puntero a int para que se obtenga el id
+ * \param name char* puntero a char para que se obtenga el name
+ * \param lastName char* puntero a char para que se obtenga el lastName
+ * \param dni char* puntero a char para que se obtenga el DNI
+ * \return int retorna (-1)si logra iterar
+ *
+ */
+int fantasma_getParametros(Fantasma* auxCliente,int* id,char* name,char* lastName,char* dni)
+{
+    int auxReturn = -1;
+    if(auxCliente!=NULL&&id!=NULL && name!=NULL && lastName!=NULL && dni!=NULL)
+    {
+        fantasma_getId(auxCliente,id);
+        fantasma_getName(auxCliente,name);
+        fantasma_getLastName(auxCliente,lastName);
+        fantasma_getDni(auxCliente,dni);
+    }
+    return auxReturn;
+}
+
+/** \brief setea el ID
+ *
+ * \param this Fantasma* puntero a la estructura
+ * \param id int parametro para el ID
+ * \return int retorna (-1)Si no logra entrar
+ *                     (0)si logra entrar
+ */
 int fantasma_setId(Fantasma* this,int id)
 {
     static int lastId = -1;
@@ -174,6 +238,13 @@ int fantasma_setId(Fantasma* this,int id)
     return auxReturn;
 }
 
+/** \brief OBTIENE el ID
+ *
+ * \param this Fantasma* puntero a la estructura
+ * \param id int parametro para obtener el ID
+ * \return int retorna (-1)Si no logra entrar
+ *                     (0)si logra entrar
+ */
 int fantasma_getId(Fantasma* this,int* id)
 {
     int auxReturn = -1;
@@ -185,6 +256,13 @@ int fantasma_getId(Fantasma* this,int* id)
     return auxReturn;
 }
 
+/** \brief setea el nombre
+ *
+ * \param this Fantasma* puntero a la estructura
+ * \param id int parametro para setear el nombre
+ * \return int retorna (-1)Si no logra entrar
+ *                     (0)si logra entrar
+ */
 int fantasma_setName(Fantasma* this,char* name)
 {
     int auxReturn = -1;
@@ -196,6 +274,13 @@ int fantasma_setName(Fantasma* this,char* name)
     return auxReturn;
 }
 
+/** \brief OBTIENE el nombre
+ *
+ * \param this Fantasma* puntero a la estructura
+ * \param id int parametro para obtener el nombre
+ * \return int retorna (-1)Si no logra entrar
+ *                     (0)si logra entrar
+ */
 int fantasma_getName(Fantasma* this,char* name)
 {
     int auxReturn = -1;
@@ -207,6 +292,13 @@ int fantasma_getName(Fantasma* this,char* name)
     return auxReturn;
 }
 
+/** \brief setea el apellido
+ *
+ * \param this Fantasma* puntero a la estructura
+ * \param id int parametro para setear el apellido
+ * \return int retorna (-1)Si no logra entrar
+ *                     (0)si logra entrar
+ */
 int fantasma_setLastName(Fantasma* this,char* lastName)
 {
     int auxReturn = -1;
@@ -218,6 +310,13 @@ int fantasma_setLastName(Fantasma* this,char* lastName)
     return auxReturn;
 }
 
+/** \brief OBTIENE el apellido
+ *
+ * \param this Fantasma* puntero a la estructura
+ * \param id int parametro para obtener el apellido
+ * \return int retorna (-1)Si no logra entrar
+ *                     (0)si logra entrar
+ */
 int fantasma_getLastName(Fantasma* this,char* lastName)
 {
     int auxReturn = -1;
@@ -229,6 +328,13 @@ int fantasma_getLastName(Fantasma* this,char* lastName)
     return auxReturn;
 }
 
+/** \brief setea el dni
+ *
+ * \param this Fantasma* puntero a la estructura
+ * \param id int parametro para setear el dni
+ * \return int retorna (-1)Si no logra entrar
+ *                     (0)si logra entrar
+ */
 int fantasma_setDni(Fantasma* this,char* dni)
 {
     int auxReturn = -1;
@@ -240,6 +346,13 @@ int fantasma_setDni(Fantasma* this,char* dni)
     return auxReturn;
 }
 
+/** \brief OBTIENE el dni
+ *
+ * \param this Fantasma* puntero a la estructura
+ * \param id int parametro para obtener el dni
+ * \return int retorna (-1)Si no logra entrar
+ *                     (0)si logra entrar
+ */
 int fantasma_getDni(Fantasma* this,char* dni)
 {
     int auxReturn = -1;
@@ -251,6 +364,13 @@ int fantasma_getDni(Fantasma* this,char* dni)
     return auxReturn;
 }
 
+/** \brief setea las horas
+ *
+ * \param this Fantasma* puntero a la estructura
+ * \param id int parametro para setear las horas
+ * \return int retorna (-1)Si no logra entrar
+ *                     (0)si logra entrar
+ */
 int fantasma_setHoras(Fantasma* this, int horas)
 {
     int auxReturn;
@@ -262,6 +382,13 @@ int fantasma_setHoras(Fantasma* this, int horas)
     return auxReturn;
 }
 
+/** \brief OBTIENE las horas
+ *
+ * \param this Fantasma* puntero a la estructura
+ * \param id int parametro para obtener las horas
+ * \return int retorna (-1)Si no logra entrar
+ *                     (0)si logra entrar
+ */
 int fantasma_getHoras(Fantasma* this, int* horas)
 {
     int auxReturn;
@@ -273,6 +400,13 @@ int fantasma_getHoras(Fantasma* this, int* horas)
     return auxReturn;
 }
 
+/** \brief setea el sueldo
+ *
+ * \param this Fantasma* puntero a la estructura
+ * \param id int parametro para setear el sueldo
+ * \return int retorna (-1)Si no logra entrar
+ *                     (0)si logra entrar
+ */
 int fantasma_setSueldo(Fantasma* this, int sueldo)
 {
     int auxReturn;
@@ -284,6 +418,13 @@ int fantasma_setSueldo(Fantasma* this, int sueldo)
     return auxReturn;
 }
 
+/** \brief OBTIENE el sueldo
+ *
+ * \param this Fantasma* puntero a la estructura
+ * \param id int parametro para obtener el sueldo
+ * \return int retorna (-1)Si no logra entrar
+ *                     (0)si logra entrar
+ */
 int fantasma_getSueldo(Fantasma* this, int* sueldo)
 {
     int auxReturn;

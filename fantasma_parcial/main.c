@@ -11,7 +11,7 @@ int main()
     ArrayList* pArrayList = al_newArrayList();
     int opcion;
     int auxId;
-    if(parser_loadFiles("nada.csv",pArrayList)==1)
+    if(parser_loadFiles("data.csv",pArrayList)==1)
     {
         do{
             getIntB("Ingrese una opcion\
@@ -36,7 +36,7 @@ int main()
             }
 
         }while(opcion!=9);
-          parser_generateFile("nada.csv",pArrayList);
+          parser_generateFile("data.csv",pArrayList);
 
     }else{
         printf("No se han leido los archivos");
