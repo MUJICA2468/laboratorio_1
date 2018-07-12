@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1530324531 source:/home/voxed/programacion_lab_1/Clases/fantasma_recuperatorio/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1530322784 /home/voxed/programacion_lab_1/Clases/fantasma_recuperatorio/ArrayList.h
+
+1531422736 source:/home/voxed/programacion_lab_1/Clases/fantasma_recuperatorio/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"producto.h"
+	"parser.h"
+
+1529874547 source:/home/voxed/programacion_lab_1/Clases/fantasma_recuperatorio/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1529809628 /home/voxed/programacion_lab_1/Clases/fantasma_recuperatorio/utn.h
+
+1531422962 source:/home/voxed/programacion_lab_1/Clases/fantasma_recuperatorio/parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"producto.h"
+
+1531421853 /home/voxed/programacion_lab_1/Clases/fantasma_recuperatorio/producto.h
+
+1531421932 source:/home/voxed/programacion_lab_1/Clases/fantasma_recuperatorio/producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+
+1531422034 /home/voxed/programacion_lab_1/Clases/fantasma_recuperatorio/parser.h
+
